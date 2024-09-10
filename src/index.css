@@ -1,0 +1,46 @@
+:root {
+    --fontFamily: "Nunito Sans", sans-serif;
+}
+
+body {
+    text-transform: capitalize;
+    font-family: var(--fontFamily) !important;
+}
+
+nav {
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    text-align: center;
+    background-color: rgb(231, 229, 229);
+}
+
+.navlin {
+    margin: 0px 10px;
+    text-align: center;
+}
+
+.lin {
+    color: rgb(85, 85, 85) !important;
+    font-family: var(--fontFamily);
+    font-weight: bolder;
+    font-size: 18px;
+    padding: 5px;
+    margin: 0px 15px;
+}
+
+.active {
+    text-decoration: underline;
+}
+.card-text{
+    font-size: 20px;
+    /* color: red; */
+}
+.card-title{
+    
+    color: rgb(252, 252, 252);
+    padding: 5px;
+    border-radius: 20px;
+    background-color: rgb(222, 208, 183);
+    font-size: 20px;
+    font-weight: bolder;
+    text-align: center;
+}
